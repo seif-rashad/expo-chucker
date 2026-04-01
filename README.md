@@ -34,7 +34,7 @@ Add the plugin to your `app.json` / `app.config.ts` file.
 ```js
 ...
 plugins: [
-  'expo-chucker',
+  '@safsof/expo-chucker',
 ]
 
 ```
@@ -44,7 +44,7 @@ If you want to enable it only for staging, not the production build (obviously),
 ```js
 plugins: [
   [
-    "expo-chucker",
+    "@safsof/expo-chucker",
     {
       enabled: process.env.APP_ENV === "staging", // Only enable Chucker on staging environment
     },
